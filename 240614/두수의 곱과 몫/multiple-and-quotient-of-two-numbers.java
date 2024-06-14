@@ -9,8 +9,8 @@ public class Main {
 
         a = sc.nextInt();
         b = sc.nextInt();
-        System.out.println("300 * 5 = " + a*b);
-        System.out.print("300 / 5 = " + a/b);
+        System.out.println(a + " * " + b + " = " + a*b);
+        System.out.print(a + " / " + b + " = " + a/b);
         // 여기에 코드를 작성해주세요.
     }
 }
