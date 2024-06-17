@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int a;
+
+        a = sc.nextInt();
+
+        System.out.print(a == 1 ? "t" : "f");
+        // 여기에 코드를 작성해주세요.
+    }
+}
