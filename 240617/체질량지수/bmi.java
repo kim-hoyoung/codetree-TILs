@@ -6,7 +6,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        int h, w;
+        long h, w;
 
         h = sc.nextInt();
         w = sc.nextInt();
