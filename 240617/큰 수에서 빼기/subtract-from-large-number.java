@@ -16,6 +16,10 @@ public class Main {
         if( b > a ) {
             System.out.print( b - a);
         }
+
+        if ( a == b) {
+            System.out.print(0);
+        }
         // 여기에 코드를 작성해주세요.
     }
 }
