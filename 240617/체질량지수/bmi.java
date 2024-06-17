@@ -6,7 +6,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        long h, w;
+        int h, w;
 
         h = sc.nextInt();
         w = sc.nextInt();
@@ -15,7 +15,8 @@ public class Main {
 
         if( b >= 25) {
             System.out.printf("%.0f" + "\n" + "Obesity", b);
-        }
+        } else
+        System.out.printf("%.0f", b);
         // 여기에 코드를 작성해주세요.
     }
 }
