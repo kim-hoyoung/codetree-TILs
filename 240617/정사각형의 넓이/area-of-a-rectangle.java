@@ -12,7 +12,7 @@ public class Main {
 
         area = n*n;
 
-        System.out.println(area);
+        System.out.print(area);
 
         if (area < 5) {
             System.out.print("\n" +"tiny");
