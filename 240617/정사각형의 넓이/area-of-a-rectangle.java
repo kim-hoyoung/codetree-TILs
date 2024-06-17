@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(area);
 
-        if (area <= 5) {
+        if (area < 5) {
             System.out.print("tiny");
         }
         
