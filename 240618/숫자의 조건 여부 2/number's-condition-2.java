@@ -13,7 +13,7 @@ public class Main {
             System.out.print("A");
         }
 
-        if ( a/2 == 0) {
+        if ( a%2 == 0 ) {
             System.out.print("B");
         }
         // 여기에 코드를 작성해주세요.
