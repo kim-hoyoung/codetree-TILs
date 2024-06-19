@@ -7,8 +7,9 @@ public class Main {
        int AM, AE, BM, BE;
 
        AM = sc.nextInt();
-       BM = sc.nextInt();
        AE = sc.nextInt();
+       
+       BM = sc.nextInt();
        BE = sc.nextInt();
 
        if (AM > BM && AE > BE) {
