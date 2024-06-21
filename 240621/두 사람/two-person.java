@@ -10,7 +10,7 @@ public class Main {
         int age2 = sc.nextInt();
         String s2 = sc.next();
 
-        if ((age1 >= 19 && s1.equals("M")) || (age2 >= 19 && s1.equals("M"))) {
+        if ((age1 >= 19 && s1.equals("M")) || (age2 >= 19 && s2.equals("M"))) {
             System.out.println(1);
         } else {
             System.out.println(0);
