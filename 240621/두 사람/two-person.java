@@ -11,7 +11,9 @@ public class Main {
 
         if((age1 >= 19 || age2 >= 19) || (sex1.equals("M") || sex2.equals("M"))) {
             System.out.println(1);
-        } else 
+        } else if (sex1.equals("W") && sex2.equals("W"))
+        System.out.println(0);
+        else 
         System.out.println(0);
         // 여기에 코드를 작성해주세요.
     }
