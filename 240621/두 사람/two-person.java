@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-   public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int age1 = sc.nextInt();
@@ -16,8 +16,12 @@ public class Main {
             } else if (s1.equals("W") && s2.equals("W")) {
                 System.out.println(0);
             } else {
-                System.out.println(0);
+                System.out.println(0); // 추가: 나머지 경우에 대한 기본 출력
             }
+        } else {
+            System.out.println(0);
         }
+
+        sc.close();
     }
 }
