@@ -8,8 +8,12 @@ public class Main {
 
         int y = sc.nextInt();
 
-        if ( (y%4 ==0 && y >= 400)|| (y%100 == 0 && y%400 != 0 && y >= 400)) {
-            System.out.println("true");
+        if ( y%4 ==0 ) {
+            if ( y%100 == 0 && y%400 != 0)
+            System.out.println("false");
+            else {
+                System.out.println("true");
+            }
         }
 
         else {
