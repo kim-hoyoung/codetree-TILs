@@ -7,15 +7,17 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
+        int max = 0;
 
         if (a >= b && a >= c) {
-            System.out.println(a);
+            max = a;
         }
         if (b >= a && b >= c) {
-            System.out.println(b);
+            max = b;
         }
         if (c >= a && c >= b) {
-            System.out.println(c);
+            max = c;
         }
+        System.out.println(max);
     }
 }
