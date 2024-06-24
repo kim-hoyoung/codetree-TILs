@@ -9,12 +9,30 @@ public class Main {
         int b = sc.nextInt();
         int c = sc.nextInt();
 
-        if ( a > b && a > c) {
-            if ( b > c) 
-                System.out.println(b);
-            else 
-            System.out.println(c);
+        int median;
+
+        if (a > b) {
+            if (a < c) {
+                median = a;
+            } else {
+                if (b > c) {
+                    median = b;
+                } else {
+                    median = c;
+                }
+            }
+        } else {
+            if (a > c) {
+                median = a;
+            } else {
+                if (b < c) {
+                    median = b;
+                } else {
+                    median = c;
+                }
+            }
         }
-        System.out.println(a);
+
+        System.out.println(median);
     }
 }
