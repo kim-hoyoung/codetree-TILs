@@ -7,7 +7,7 @@ public class Main {
 
         int n = sc.nextInt();
 
-        for (int i = n; i <= 35; i += 7){
+        for(int i = n; i <= (n*5); i += n){
             System.out.print(i + " ");
         }
         // 여기에 코드를 작성해주세요.
