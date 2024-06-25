@@ -2,30 +2,37 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-
-        int n = sc.nextInt();
-
+        Scanner scanner = new Scanner(System.in);
         
-        for (int j=1; j <= n; j ++){
-                if  (j==3 && j==6 && j==9) {
-                    System.out.print(0 + " ");
-            }   else if (j % 3 ==0 )  {
-                    System.out.print(0 + " ");
-                } 
-                else if ( j >= 30 && j <= 39) {
-                    System.out.print( 0 + " ");
-                } 
-                else if ( j >= 60 && j <= 69) {
-                    System.out.print( 0 + " ");
-                } 
-                else if (j >= 90 && j <= 99) {
-                    System.out.print ( 0 + " ");
-                } 
-                else
-                    System.out.print(j + " ");  
 
+        int n = scanner.nextInt();
+        
+        for (int i = 1; i <= n; i++) {
+            int num = i;
+            int check369 = 0;
+            
+            // 숫자가 3의 배수인지 확인
+            if (num % 3 == 0) {
+                check369 = 1;
+            }
+            
+            // 숫자에 3, 6, 9 중 하나가 포함되어 있는지 확인
+            while (num > 0) {
+                int digit = num % 10;
+                if (digit == 3 || digit == 6 || digit == 9) {
+                    check369 = 1;
+                    break;
+                }
+                num /= 10;
+            }
+            
+            if (check369 == 1) {
+                System.out.print(0 + " ");
+            } else {
+                System.out.print(i + " ");
             }
         }
+        
+        scanner.close();
     }
+}
