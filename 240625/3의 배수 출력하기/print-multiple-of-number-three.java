@@ -5,11 +5,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-        int i = 0;
+        int i = 3;
 
-        while(i < n){
+        while(i <= n){
+           
+            System.out.print(i + " ");
             i = i+3;
-            System.out.print(i + " "); 
         }
     }
 }
