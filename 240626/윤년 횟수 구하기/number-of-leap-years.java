@@ -11,7 +11,7 @@ public class Main {
         int leapYear = 0;
         int commonYear =0;
 
-        for(int i = 0; i < n; i ++) {
+        for(int i = 1; i <= n; i ++) {
              
             if (i%100==0 && i%400 != 0) {
                 commonYear++; 
