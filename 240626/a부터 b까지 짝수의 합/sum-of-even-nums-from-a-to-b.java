@@ -9,7 +9,7 @@ public class Main {
         int b = sc.nextInt();
         int sumEver = 0;
 
-        for(int i = a; i < b; i++) {
+        for(int i = a; i <= b; i++) {
             if (i%2 == 0) {
                 sumEver += i;
             }
