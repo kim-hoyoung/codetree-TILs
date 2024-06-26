@@ -13,31 +13,21 @@ public class Main {
 
         if ( a > b) {
             for( int i = b; i <= a; i++) {
-                if(b%5 == 0) {
-                    sumVal += b;
-                }
-            }
-             System.out.print(sumVal);
-        }
-       
-
-        if (a < b) {
-            for (int i = a; i <= b; i++) {
-                if(a%5 == 0) {
-                    sumVal += a;
+                if(i%5 == 0) {
+                    sumVal += i;
                 }
 
             }
             System.out.print(sumVal);
-        }
-        
-        else {
+        } else if (a < b) {
+            for (int i = a; i <= b; i++) {
+                if(i%5 == 0) {
+                    sumVal += i;
+                }
+            }
+            System.out.print(sumVal);
+        } else {
             System.out.print(a);
         }
-        
-    
-
-
-        
     }
 }
