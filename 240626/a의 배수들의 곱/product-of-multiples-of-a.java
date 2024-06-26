@@ -8,10 +8,10 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int prod = a;
+        int prod = 1;
 
         for(int i = 1; i <=b; i ++) {
-            if(a%i==0) {
+            if(i%a==0) {
                 prod *= i;
             }
 
