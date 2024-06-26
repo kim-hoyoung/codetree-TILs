@@ -7,13 +7,13 @@ public class Main {
         int n = sc.nextInt();
         int sumVal = 0;
 
-        for(int i=1; i < n; i++) {
+        for(int i=1; i <= n; i++) {
             if ( n%i == 0) 
-                sumVal++;  
+                sumVal += i;  
         }
-        if (sumVal == n) {
-            System.out.print("N");
+         if (sumVal == n*2) {
+            System.out.print("P");
         } else 
-            System.out.print("P");   
+            System.out.print("N");   
     }
 }
