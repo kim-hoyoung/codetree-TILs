@@ -13,7 +13,7 @@ public class Main {
                 count++;
                 continue;
             }
-            if (n/i < 1) {
+            if (n/i <= 1) {
                 count++;
                 System.out.println(count);
                 break;
