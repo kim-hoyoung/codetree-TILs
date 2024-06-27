@@ -15,6 +15,6 @@ public class Main {
                 
                 break;
             }           
-        }System.out.print(sum);
+        }System.out.print(i);
     }
 }
