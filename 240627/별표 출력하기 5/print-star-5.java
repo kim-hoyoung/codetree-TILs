@@ -20,7 +20,9 @@ public class Main {
                 System.out.print("*");
             }
             System.out.print(" ");
+            
         } System.out.println();
+        
         for (int e = 0; e < n-2; e++) {
 
             for (int f = 0; f < n-2; f++) {
@@ -28,9 +30,10 @@ public class Main {
             }
             System.out.print(" ");
         }
-
+        System.out.println();
+        
         for (int g = 0; g < n-3; g++) {
-            System.out.println();
+            
             for (int h = 0; h < n-3; h++) {
                 System.out.print("*");
             }
