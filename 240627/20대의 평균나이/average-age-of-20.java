@@ -10,7 +10,7 @@ public class Main {
 
         while(true) {
             int age = sc.nextInt();
-            if(age > 29) {
+            if(age < 20 || age > 29) {
                 break;
             }
             else
