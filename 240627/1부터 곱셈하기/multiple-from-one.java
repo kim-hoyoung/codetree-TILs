@@ -10,7 +10,7 @@ public class Main {
 
         for (int i =1; i <= 10; i++) {
             prod *= i;
-            if (prod > n) {
+            if (prod >= n) {
                 System.out.print(i);
                 break;
             }
