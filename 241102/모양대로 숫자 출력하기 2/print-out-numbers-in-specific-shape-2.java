@@ -1,4 +1,4 @@
-import java.util Scanner;
+import java.util.Scanner;
 
 
 public class Main {
@@ -17,7 +17,7 @@ public class Main {
                 cnt = cnt+2;
 
                 if ( cnt == 10 ) {
-                    cnt  = 0 ;
+                    cnt  = 2 ;
                 }
 
                 System.out.print(cnt + " ");
