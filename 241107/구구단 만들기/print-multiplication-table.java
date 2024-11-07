@@ -1,30 +1,22 @@
 import java.util.Scanner;
 
-
 public class Main {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
-        int min = sc.nextInt();
-        int max = sc.nextInt();
+        // 변수 선언 및 입력
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        int count = max/min;
-        int fixNum = max;
-
-        for (int i = 1; i < 10; i++) {
-            for (int j = 1; j <= count+1; j++) {
-                System.out.print(fixNum + " * " + i + " = " + (fixNum*i));
-                if (max == min) {
-                    count = 0;
-                } else if (j <= count ) {
-                    System.out.print(" / ");
-                }
-                if (fixNum > min) {
-                    fixNum = fixNum-2;
+        // b부터 a까지 감소하며 짝수의 구구단을 출력합니다.
+        for(int i = 1; i < 10; i++) {
+            for(int j = b; j >= a; j--) {
+                if(j % 2 == 0) {
+                    System.out.print(j + " * " + i + " = " + (i * j));
+                    if(j != a)
+                        System.out.print(" / ");
                 }
             }
-            fixNum = max;
             System.out.println();
         }
     }
