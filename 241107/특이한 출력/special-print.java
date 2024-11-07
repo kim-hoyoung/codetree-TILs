@@ -1,5 +1,3 @@
-package codetree;
-
 import java.util.Scanner;
 
 public class Main {
