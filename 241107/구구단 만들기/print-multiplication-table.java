@@ -15,12 +15,10 @@ public class Main {
         for (int i = 1; i < 10; i++) {
             for (int j = 1; j <= count+1; j++) {
                 System.out.print(fixNum + " * " + i + " = " + (fixNum*i));
-
-                if (j <= count ) {
-                    System.out.print(" / ");
-                } else if (max == min) {
+                if (max == min) {
                     count = 0;
-
+                } else if (j <= count ) {
+                    System.out.print(" / ");
                 }
                 if (fixNum > min) {
                     fixNum = fixNum-2;
