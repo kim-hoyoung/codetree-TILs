@@ -14,10 +14,12 @@ public class Main {
             for (int j = n-i; j > 0; j--) {
                 System.out.print(cnt + " ");
                 cnt++;
+                
+                if(cnt > 9) {
+                    cnt = 1;
+                }
             }
-            if(cnt > 9) {
-                cnt = 1;
-            }
+
 
             System.out.println();
         }
