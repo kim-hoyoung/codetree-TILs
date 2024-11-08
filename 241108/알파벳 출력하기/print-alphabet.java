@@ -12,11 +12,12 @@ public class Main {
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < i+1; j++) {
                 System.out.print(cnt);
+                if (cnt > 89) {
+                    cnt = 64;
+                }
                 cnt++;
             }
-            if (cnt == 91) {
-                cnt = 65;
-            }
+
             System.out.println();
         }
     }
