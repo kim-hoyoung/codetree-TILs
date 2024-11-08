@@ -14,6 +14,9 @@ public class Main {
                 System.out.print(cnt);
                 cnt++;
             }
+            if (cnt == 91) {
+                cnt = 65;
+            }
             System.out.println();
         }
     }
