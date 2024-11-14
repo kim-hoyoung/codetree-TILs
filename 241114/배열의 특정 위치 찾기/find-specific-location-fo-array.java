@@ -17,11 +17,10 @@ public class Main {
         System.out.print(sum + " ");
         sum = 0;
 
-        for (int i = 0; i < 10; i++ ) {
-            if(arr[i] % 3 == 0) {
-                cnt++;
+        for (int i = 2; i < 10; i+=3 ) {
                 sum += arr[i];
-            }
+                cnt++;
+
         }
         double avg = (double)sum/cnt;
 
