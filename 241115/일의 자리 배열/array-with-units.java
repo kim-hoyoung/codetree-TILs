@@ -19,9 +19,12 @@ public class Main {
                 if (sum > 10) {
                     sum = sum%10;
                     System.out.print(sum + " ");
-                } else
+                } else if (sum%10 == 0) {
+                    System.out.print(0 + " ");
+                    sum = sum;
+                }
 
-                System.out.print(sum + " ");
+                //System.out.print(sum + " ");
 
                 sum = 0;
 
