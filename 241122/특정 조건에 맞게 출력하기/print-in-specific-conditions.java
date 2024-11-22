@@ -14,15 +14,16 @@ public class Main {
             count++;
 
             if (arr[i] == 0) {
-                for (int j = 0; j < count - 1; j++)
+                for (int j = 0; j < count - 1; j++) {
                     if (arr[j] % 2 == 0) {
                         System.out.print(arr[j] / 2 + " ");
 
                     }
                     else if (arr[j] % 2 == 1) {
                         System.out.print(arr[j] + 3 + " ");
-
+                    }   
                 }
+
             }
         }
     }
