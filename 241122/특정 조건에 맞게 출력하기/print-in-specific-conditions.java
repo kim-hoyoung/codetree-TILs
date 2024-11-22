@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
@@ -21,8 +21,9 @@ public class Main {
                     }
                     else if (arr[j] % 2 == 1) {
                         System.out.print(arr[j] + 3 + " ");
-                    }   
+                    }
                 }
+                break;
 
             }
         }
