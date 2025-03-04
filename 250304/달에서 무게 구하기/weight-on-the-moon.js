@@ -1,5 +1,4 @@
-let intOne = 7;
-let intTwo = 23;
-let intThree = 30;
+let weight = 13;
+let gravity = 0.165;
 
-console.log(intOne + " + " + intTwo + " = "+ intThree);
+console.log(weight + " * " + gravity + " = " + weight*gravity);
