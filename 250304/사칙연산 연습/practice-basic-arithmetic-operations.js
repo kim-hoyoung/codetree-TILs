@@ -1,5 +1,5 @@
-let a = 5;
-let b = 30;
+ a = 5;
+ b = 30;
 c = a + b;
 
 console.log(c/8);
