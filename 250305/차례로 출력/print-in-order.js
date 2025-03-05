@@ -1,5 +1,8 @@
 
-let result;
+let result ="";
 for (let i = 5; i < 18; i++) {
-    console.log(i + " ");
+    result += i + " ";
 }
+
+console.log(result.trim());
+
