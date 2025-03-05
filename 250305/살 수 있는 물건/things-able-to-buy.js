@@ -2,7 +2,7 @@ const fs = require("fs");
 
 let input = fs.readFileSync(0).toString().trim();
 
-let n = Number(intput);
+let n = Number(input);
 
 if (n === 1000) {
     console.log("mask");
